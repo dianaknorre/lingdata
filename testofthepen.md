@@ -1,8 +1,0 @@
-Привет Ольге Николаевне! 
-
-**₊‧°𐐪♡𐑂°‧₊*⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-
-
-I love:
-* [Cookie Run: Kingdom](https://en.wikipedia.org/wiki/Cookie_Run%3A_Kingdom)!
-* [In Stars and Time](https://en.wikipedia.org/wiki/In_Stars_and_Time)
