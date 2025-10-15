@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2025-10-15T23:40:25+03:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2025-10-15T23:48:13+03:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -237,7 +237,7 @@
         <TIME_SLOT TIME_SLOT_ID="ts225" TIME_VALUE="338478"/>
         <TIME_SLOT TIME_SLOT_ID="ts226" TIME_VALUE="338879"/>
     </TIME_ORDER>
-    <TIER ANNOTATOR="dianaknorre" DEFAULT_LOCALE="ru" LANG_REF="und"
+    <TIER ANNOTATOR="dianaknorre" DEFAULT_LOCALE="ru"
         LINGUISTIC_TYPE_REF="utterance" PARTICIPANT="@dvk2006f" TIER_ID="text@dvk2006f">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1"
@@ -420,9 +420,9 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER ANNOTATOR="dianaknorre" DEFAULT_LOCALE="ru" LANG_REF="und"
+    <TIER ANNOTATOR="dianaknorre" DEFAULT_LOCALE="ru"
         LINGUISTIC_TYPE_REF="utterance" PARTICIPANT="@oaa2007f" TIER_ID="text@oaa2007f"/>
-    <TIER ANNOTATOR="dianaknorre" DEFAULT_LOCALE="ru" LANG_REF="und"
+    <TIER ANNOTATOR="dianaknorre" DEFAULT_LOCALE="ru"
         LINGUISTIC_TYPE_REF="words" PARENT_REF="text@dvk2006f"
         PARTICIPANT="dvk2006f" TIER_ID="words@dvk2006f">
         <ANNOTATION>
@@ -1602,7 +1602,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER ANNOTATOR="dianaknorre" DEFAULT_LOCALE="ru" LANG_REF="und"
+    <TIER ANNOTATOR="dianaknorre" DEFAULT_LOCALE="ru"
         LINGUISTIC_TYPE_REF="part of speech" PARENT_REF="words@dvk2006f"
         PARTICIPANT="dvk2006f" TIER_ID="pos@dvk2006f">
         <ANNOTATION>
