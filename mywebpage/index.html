@@ -1,11 +1,13 @@
 <!doctype html>
+
+<!-- так в HTML обозначаются комментарии. Выше вы видите объявление типа документа (DOCTYPE), так браузер понимает, что код ниже нужно интерпретировать как html -->
+
 <html>
 
 <!-- зона заголовка html, тег <title> - строка, которую браузер отображает на вкладках над страницами, <meta> и <link> сообщают технические сведения для браузера, например, что файл имеет кодировку Юникод (utf-8) -->
 
 	<head>
-		<title>Диана Кнорре</title>
-		<link rel="icon" type="gif" href="arrowfox.gif">
+		<title>Личная страница Ди</title>
 	 	<!-- Required meta tags -->
 	 	<meta charset="utf-8">
 	 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,8 +25,26 @@
 	
 <!-- body - главная, содержательная часть страницы. Контент на этой странице делится на меню (nav), "шапку" (header), "подвал" (footer) и все остальное (мы заключили остаток в тег section) -->	
 	<body style="background-color:black; color: white;">
+<!-- меню (navigation bar) -->
 
-		<!-- начинается шапка. у тега header есть атрибут style, который задает цвет фона и отступы. поменяйте значения атрибутов и посмотрите, как изменится страница -->
+		<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom" style="background-color:darkpurple">
+
+<!-- div - это контейнеры - коробочки с текстом и/или графикой, которые можно вкладывать друг в друга. Пристально смотреть на теги в этой части кода не нужно -->
+			<div class="container"> 
+				<div class="navbar-header"> 
+					<a href="https://ling.hse.ru/" class="navbar-brand">Школа лингвистики НИУ ВШЭ</a> 
+				</div> 
+				<nav class="collapse navbar-collapse" id="bs-navbar"> 
+					<ul class="nav navbar-nav navbar-right"> 
+						<li> <a href="https://olesar.github.io/lingdata/">Страница курса</a> </li> 
+						<li> <a href="https://lingvocodes.github.io/HSEinfo/ba-ling-2021/latin_2.html"><abbr title="не знаю о таковой, оставила как есть">Страница группы</abbr></a> </li> 
+<!-- поправьте номер группы в URL, если нужно (от 1 до 4) -->
+					</ul>
+				</nav> 
+			</div>
+		</nav>
+
+<!-- начинается шапка. у тега header есть атрибут style, который задает цвет фона и отступы. поменяйте значения атрибутов и посмотрите, как изменится страница -->
 
 		<header style="background-color:darkblue; padding-top:70px;">
 		 
@@ -35,7 +55,7 @@
 <!-- здесь и дальше нужно поменять весь содержательный текст, чтобы получилась ваша личная страница -->
 						<h1 style="background-color:purple">Диана Кнорре <i>(Ди)</i></h1>
 						<hr> <!-- это горизонтальная линия -->
-						<p><i>Pure Vanilla</i> fan <b>extraordinaire!!!</b></p> 
+						<p><i>Человек, любящий играть</i> в <b>Cookie Run: Kingdom</b> на корейском.</p> 
 						<img src="Beast_ep08_obj_vanilla04.png">
 					</div>
 					<div class="col-md-4">
@@ -67,7 +87,7 @@
 					</article>
 					<article>
 					<br>
-						<h3 style="background-color:purple">Родной город</h3>
+						<h3 style="background-color:purple">Родной(?) город</h3>
 						<p>Красноярск<br></p>
 					</article>
 					<article>
@@ -82,22 +102,24 @@
 					<article>
 					<br><br>
 						<h3 style="background-color:purple">Любимые игры:</h3>
-						<p><b>Cookie Run: Kingdom</b><br>
-						<b>OFF</b> <i>by Mortis Ghost</i><br>
-						<b>In Stars and Time</b><br>
-						<b><font color="red">of the Devil</font></b><br>
-						<b>World of Warcraft/Warcraft III</b><br>
-						<b>OneShot</b><br>
+						<p>Ну много лол<br>
+						<i><b>Cookie Run: Kingdom</b></i>, очевидно <br>
+						(обожаю ваниль и шамиля с: но в целом всех люблю) <br>
+						<i><b>Hollow Knight: Silksong</b> (</i>я обязательно доиграю,,,) <br>
+						<i><b>OFF</b></i> by Mortis Ghost (a nice game for cute children!)<br>
+						<i><b>In Stars and Time</b></i> (по плюшке надеюсь заметно~)<br>
+						<i><b>Slay the Spire</b></i> (сайлент любимка!!)<br>
+						<i><b>OneShot</b></i>(сформировала восприятие всех works of fiction в целом... T_T) <br>
 						
-					<br>всегда рада попробовать новые и обсудить старые</p>
+					<br>всегда рада попробовать новые <3 </p>
 					</article>
 					<article>
 					<br>
 					<h3 style="background-color:purple">Обо мне:</h3>
-					<p>Люблю рисовать в свое удовольствие<br>
-					Шоколад #1<br>
-					Коллекционирую плюшевые игрушки, фонари, зажигалки и другое барахло
-					Интересуюсь оккультным и сверхъестественным<br>
+					<p>Люблю рисовать в свое удовольствие, хотя часто плохо с:<br>
+					Также время от времени читаю различные манги, но аниме редко чекаю<br>
+					У меня истрачено куча гигов на телефоне на разные useless альбомы, лол<br>
+					Верю в магию, фей и домовых :Р<br>
 					
 					
 					
@@ -126,13 +148,12 @@
 <!-- это подвал. В этой части страницы обычно ставят копирайт (с помощью символа &copy;) и пишут об истории создания страницы. Поставьте свой копирайт -->
 		<footer class="bs-docs-footer"> 
 			<div class="container"> 
-				<p style="text-align:right; ">&copy; Д. Кнорре, 2025-2026</p> 
+				<p style="text-align:right; ">&copy; Д. Кнорре, 2025</p> 
 			</div>
 		</footer>
 	</body>
 
 </html>
-
 
 
 
